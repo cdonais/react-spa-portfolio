@@ -9,7 +9,7 @@ function Nav() {
                      Carly Donais
                 </a>
             </h2>
-            <nav>
+            <nav id='navbar'>
                 <ul className='flex-row'>
                     <li className='mx-2'>
                         <a href="#about">
