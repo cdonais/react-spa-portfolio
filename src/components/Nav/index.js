@@ -4,11 +4,11 @@ import React from 'react';
 function Nav() {
     return (
         <header className='flex-row px-1'>
-            <h2>
+            <h1>
                 <a href="/">
                      Carly Donais
                 </a>
-            </h2>
+            </h1>
             <nav id='navbar'>
                 <ul className='flex-row'>
                     <li className='mx-2'>
