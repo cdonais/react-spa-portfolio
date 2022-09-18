@@ -291,10 +291,10 @@ a {
 	
 }
 
-.navActive {
+.active {
   color: var(--secondary);
 }
 
-li{
+#navbar{
   padding: 2rem;
 }

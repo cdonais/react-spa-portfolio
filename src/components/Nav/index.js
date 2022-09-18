@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {NavLink} from 'react-router-dom';
 
 function Nav() {
     return (
@@ -9,29 +9,19 @@ function Nav() {
                      Carly Donais
                 </a>
             </h1>
-            <nav id='navbar'>
-                <ul className='flex-row'>
-                    <li className='mx-2'>
-                        <a href="#about">
-                            About me
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
+            <nav id='navbar'>   
+            <NavLink to='/' end={true}>
+                            About
+                        </NavLink>
+                        <NavLink to='/contact'>
                             Contact
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">
+                        </NavLink>
+                        <NavLink to='/portfolio'>
                             Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#resume">
+                        </NavLink>
+                        <NavLink to='/resume'>
                             Resume
-                        </a>
-                    </li>
-                </ul>
+                        </NavLink>
             </nav>
         </header>
     );
