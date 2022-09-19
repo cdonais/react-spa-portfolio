@@ -6,8 +6,8 @@ function Contact() {
         <section>
         <h2>Contact</h2>
         <p>Phone: 571-334-2133</p>
-        <p>Email: carly.donais@gmail.com</p>
-        <p>GitHub: cdonais</p>
+        <a href='mailto:carly.donais@gmail.com'>Email</a>
+        <a href='http://github.com/cdonais'>GitHub</a>
         </section>
     )
 }
