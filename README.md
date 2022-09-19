@@ -9,5 +9,5 @@ To showcase my abilities to potential employers
 * React
 
 ## Screenshots
-[about me](./screenshots/screenshot1.jpeg)
-[portfolio](./screenshots/screenshot2.jpeg)
+![about me](./screenshots/screenshot1.jpeg)
+![portfolio](./screenshots/screenshot2.jpeg)
